@@ -12,7 +12,8 @@ Supported MCPs: `fortnite`, `wex`
     "purchaseQuantity": 0,
     "currency": "MtxCurrency",
     "expectedTotalPrice": 0,
-    "gameContext": ""
+    "gameContext": "",
+    "currencySubType": ""
 }
 ```
 
@@ -22,3 +23,4 @@ Supported MCPs: `fortnite`, `wex`
 - `currency`: type of currency the transaction is being paid in  
 - `expectedTotalPrice`: price of the item  
 - `gameContext`: only used for analytics and can be ignored  
+- `currencySubType`: Only used when changing the type of currency and can be ignored
